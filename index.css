@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    background-color: white;
     text-align: center;
 }
 input{
@@ -14,6 +14,7 @@ input{
     box-sizing: border-box;
     border: 1px solid green;
     border-radius: 5px;
+    margin: 5px;
 }
 button {
     padding: 10px 20px;
@@ -24,7 +25,21 @@ button {
     border-radius: 5px;
     text-shadow: none;
     align-self:center;
+    border: 1px solid gold;
 }
 #input-el{
     text-align: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+li{
+    text-align: left;
+    margin-top: 5px;
+
+}
+li a {
+    color: green;
 }
