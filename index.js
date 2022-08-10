@@ -6,7 +6,9 @@ let myLead =[];
 inputBtn.addEventListener("click", function() {
     myLead.push(inputEl.value);
     inputEl.value = ""
+    localStorage.setItem("mylead", JSON.stringify(myLead))
     renderLeads();
+    console.log(localStorage.getItem("mylead"))
 }
 );
 function renderLeads(){
@@ -22,4 +24,4 @@ for (let i = 0; i < myLead.length; i++){
 };
 ulEL.innerHTML = listItems;
 }
-// Video link: `https://youtu.be/jS4aFq5-91M?t=19531
+// Video link: https://youtu.be/jS4aFq5-91M?t=22269
