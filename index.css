@@ -1,0 +1,18 @@
+head {
+    text-align: center;
+}
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkred;
+    background-color: azure;
+    text-align: center;
+    align-self:center;
+}
+#input-el{
+    text-align: center;
+}
