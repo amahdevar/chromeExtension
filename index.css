@@ -28,6 +28,10 @@ button {
     align-self:center;
     border: 1px solid gold;
 }
+#clear-btn {
+    background: white;
+    color: green;
+}
 #input-el{
     text-align: center;
 }
